@@ -89,20 +89,18 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Sweta Patel,
+          Sweta Patel
           <br />
-          Adelaide,
-          <br />
-          Australia<br />
+          Adelaide, Australia<br />
          
-          <br />
           <span>sweta.patel2091983@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <MapContainer center={[-34.851799514705284, 138.6278827716897]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sweta lives here, come over for a cup of coffee :)</Popup>
+            <Marker position={[-34.851799514705284, 138.6278827716897]}>
+              <Popup>Sweta lives here, come over for a cup of coffee &#x1F603;
+              </Popup>
             </Marker>
           </MapContainer>
         </div>
